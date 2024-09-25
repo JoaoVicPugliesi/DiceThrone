@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --Main-color: #dd3f31;
+    --Second-color: #ff0066;
+    --Third-color: #333333;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: var(--Second-color);
+    overflow: hidden;
+}
+
+#myApp {
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+#myAppName {
+    font-size: 3em;
+    padding: 10px;
+    user-select: none;
+}
+
+#myLabel {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: var(--Third-color);
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-weight: 400;
+    user-select: none;
+}
+
+#myNumDice::-webkit-outer-spin-button,
+#myNumDice::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+#myNumDice {
+    text-align: center;
+    padding: 5px 10px;
+    list-style: none;
+    margin: 1em 0em;
+    width: 10em;
+    border: none;
+    background-color: var(--Third-color);
+    box-shadow: 3px 3px #ffffff;
+    color: white;
+    border-radius: 2px;
+    outline: none;
+}
+
+#myDivNumNice {
+    gap: 10px;
+}
+
+
+#myBtn {
+    width: 10em;
+    height: 3em;
+    border-radius: 2px;
+    cursor: pointer;
+    background: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    margin: 10px 0px;
+}
+
+#myBtn:hover {
+    transition: 0.2s ease-in-out;
+    background: #333333;
+}
+
+#myDiceResult {
+    margin: 1em 0em;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+#myDiceImage {
+    width: 3em;
+    height: 3em;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin: 0px 5px;
+}
+
+#myDiceImages {
+    background-color: #ff0066;
+    width: max-content;
+    padding: 5px 10px;
+    height: max-content;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+

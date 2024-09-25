@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="shortcut icon" href="./dice_images/dice.png" type="image/x-icon">
+    <title>DiceThrone</title>
+</head>
+<body class="flex">
+    
+    <div id="myApp" class="flex">
+        <h1 id="myAppName">Dice Throne</h1>
+    
+        <label for="myNumDice" id="myLabel">Number of Dices</label>
+        <input  type="number" name="number" id="myNumDice" value="1" min="1" max="6" autocomplete="off" maxlength="20">
+        <button id="myBtn" onclick="rollDice()">Roll Dice</button>
+        <div id="myDiceResult">Result</div>
+        <div id="myDiceImages" class="flex"></div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
